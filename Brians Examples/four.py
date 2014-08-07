@@ -7,3 +7,13 @@
 
 def fizzbuzz(word):
     #Your code goes here
+	f = word.find("f")
+	b = word.rfind("b")
+	if f == 0 and b == len(word)-1:
+		return "fizzbuzz"
+	if f == 0:
+		return "fizz"
+	if b == len(word)-1:
+		return "buzz"
+	else:
+		return word
