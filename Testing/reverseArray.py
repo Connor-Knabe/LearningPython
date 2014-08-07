@@ -7,5 +7,7 @@ for i in range (0, len(array)):
 
 array.reverse()
 
-for i in range (0, array.count()):
+for i in range (0, len(array)):
 	print "Array reversed: ", array[i]
+
+print "How many 5s in array:", array.count(5)
