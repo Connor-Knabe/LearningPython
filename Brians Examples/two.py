@@ -5,3 +5,4 @@
 
 def reverse(arr):
     #Your code goes here
+    for i in range (0, len(arr))
