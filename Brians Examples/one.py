@@ -3,7 +3,6 @@
 #Run with: python test.py one
 
 def times2(arr):
-	for i in arr[:]:
+	for i in range (0, len(arr)):
 		arr[i] *= 2
-		print arr[i]
 	return arr
