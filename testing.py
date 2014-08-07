@@ -1,8 +1,14 @@
 print "Hi there"
 
-int i = 1
+i = -1
 
 if i > 0:
 	print "I greather than zero"
 else:
-	print "I less than zero"
+	print i ,"Is less than zero"
+
+
+#for (i = 0; i < 10; i++){
+	
+#	print ("hi %d",i)
+#}
