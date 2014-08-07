@@ -1,6 +1,6 @@
 print "Hi there"
 
-i = 1
+int i = 1
 
 if i > 0:
 	print "I greather than zero"
