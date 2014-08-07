@@ -7,3 +7,10 @@ array.sort()
 
 for i in range (0,len(array)):
 	print "Sorted array i=", array[i]
+
+array.reverse()
+
+print ""
+
+for i in range (0,len(array)):
+	print "Reversed array i=", array[i]
