@@ -20,7 +20,7 @@ print "Array index 4", arry[4]
 print "Arry length = ", len(arry)
 
 
-def tttt(arry):
+def arrayMulti(arry):
 	for i in arry[:]:
 		print "Array", i
 		arry[i] *= 10
@@ -28,6 +28,10 @@ def tttt(arry):
 	for i in arry[:]:
 		print "Array * 10", i
 
+	return arry
 
-tttt(arry)
+array = arrayMulti(arry)
+
+for i in array[:]:
+	print "ARRAY",i
 
