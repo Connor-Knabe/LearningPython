@@ -8,7 +8,7 @@ else:
 	print i ,"Is less than zero"
 
 
-#for (i = 0; i < 10; i++){
+for (i = 0; i < 10; i++){
 	
-#	print ("hi %d",i)
-#}
+	print "HI"
+}
