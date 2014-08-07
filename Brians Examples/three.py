@@ -4,3 +4,5 @@
 #Run with: python test.py three
 def sort(arr):
     #Your code goes here
+	arr.sort()
+	return arr
