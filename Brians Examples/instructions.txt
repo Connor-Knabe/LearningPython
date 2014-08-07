@@ -1,0 +1,65 @@
+Connor,
+
+Work your way through each of the five problems, I have provided an empty function for each problem along with a description in each file.
+
+For the first problem, you will be given an array and will need to return the array or a version of the array with each number in the array multiplied by two.
+
+For the second problem, you will be given an array and will need to return that array reversed
+
+For the third problem, you will be given an unsorted array and will need to sort it
+
+The fourth problem is the fizzbuzz problem
+
+The fifth problem is the same as the first problem but you can't use loops
+
+each problem can be run with the command python test.py <problem_number>
+
+Documentation:
+
+if statement:
+
+if i > 0:
+	do something
+elif i == 0:
+	do something
+elif i < -10:
+	do something
+else:
+	do something
+
+'or' and 'and' and 'not operator examples:
+	if x > 0 and x < 10:
+		do something
+	elif x > 0 or x < 10:
+		do something
+	elif not (x < 10):
+		do something
+
+note: Python literally uses the words or, and, not
+
+looping through an array:
+	for item in arr:
+		do something
+
+normal for loop in objective-c
+	for(int i = 0; i < whatever: i++){
+		do something
+	}
+
+normal for loop in python:
+	for i in range(0, whatever):
+		do something
+
+while loop:
+	while True:
+		do something
+
+array stuff:
+	length of array = len(array)
+	arrays are pretty much the same as most languages so things like arr[i] work just fine
+
+
+
+
+
+
