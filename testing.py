@@ -10,3 +10,14 @@ else:
 
 for i in range(0,10):
 	print i
+
+arry = [0,1,2,3,4]
+
+#for i in range(0,len(arry))
+print "Array index 4", arry[4]
+
+
+print "Arry length = ", len(arry)
+
+for i in arry[:]:
+	print "Array",i
