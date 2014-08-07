@@ -3,4 +3,6 @@
 #Run with: python test.py one
 
 def times2(arr):
-    #Your code goes here
+	for i in arr[:]:
+		arr[i] * 2
+		print arr[i]

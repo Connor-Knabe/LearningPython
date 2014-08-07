@@ -22,7 +22,9 @@ print "Arry length = ", len(arry)
 
 def tttt(arry):
 	for i in arry[:]:
-		print "Array",i
-		
+		print "Array", i
+		arry[i] * 2
+		print "Array * 2", i
+
 tttt(arry)
 
