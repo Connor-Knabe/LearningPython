@@ -7,5 +7,5 @@ for i in range (0, len(array)):
 
 array.reverse()
 
-for i in range (0, len(array)):
+for i in range (0, array.count()):
 	print "Array reversed: ", array[i]
