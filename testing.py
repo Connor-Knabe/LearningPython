@@ -24,7 +24,6 @@ def tttt(arry):
 	for i in arry[:]:
 		print "Array", i
 		arry[i] *= 10
-		print "Array * 2", i
 
 	for i in arry[:]:
 		print "Array * 10", i
