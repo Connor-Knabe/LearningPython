@@ -19,5 +19,10 @@ print "Array index 4", arry[4]
 
 print "Arry length = ", len(arry)
 
-for i in arry[:]:
-	print "Array",i
+
+def tttt(arry):
+	for i in arry[:]:
+		print "Array",i
+		
+tttt(arry)
+
