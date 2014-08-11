@@ -14,13 +14,22 @@ def helper(arr,i,k,rev_arr):
 		print rev_arr[d] 
 	i -= 1
 	k += 1
-	if k < len(rev_arr):
-		helper(arr,i,k,rev_arr)
-	else:
+
+	if k > len(rev_arr):
 		print "DONE"
 		for d in range (len(rev_arr)):
 			print rev_arr[d] 
 		return rev_arr
+	else:
+		helper(arr,i,k,rev_arr)
+
+	#if k < len(rev_arr):
+	#	helper(arr,i,k,rev_arr)
+	#else:
+	#	print "DONE"
+	#	for d in range (len(rev_arr)):
+	#		print rev_arr[d] 
+	#	return rev_arr
 
 def reverse(arr):
 	#Your code goes here and remember you can add other methods to help out if you like.
