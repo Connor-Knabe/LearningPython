@@ -11,6 +11,8 @@ def helper(sol_arr, arr, i):
 
 def times2(arr):
 	sol_arr = []
+	for i in range (0,len(arr)):
+		print arr[i]
 	solution_arr = helper(sol_arr, arr, 0)
 	return solution_arr
 
