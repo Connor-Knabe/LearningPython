@@ -8,4 +8,10 @@
 
 def cigar_party(cigars, is_weekend):
 	#Your code goes here
-	
+
+	if cigars >= 40 and is_weekend:
+		return True
+	elif cigars >= 40 and cigars <= 60:
+		return True
+	else: 
+		return False

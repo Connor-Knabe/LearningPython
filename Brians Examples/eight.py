@@ -9,3 +9,7 @@
 
 def caught_speeding(speed, is_birthday):
 	#Your code goes here
+	if speed <= 60:
+		return 0 
+	elif speed > 60 and <= 80 and !is_birthday
+		return 1
