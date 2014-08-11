@@ -5,17 +5,15 @@ def helper(arr,i,k,rev_arr):
 	print "i is ",i
 	print "k is ",k
 
-	for d in range (len(rev_arr)):
-		print rev_arr[d] 
+	print "rev_arr[k] = ", rev_arr[k]
+	print "arr[i] = ", arr[i]
 
 	rev_arr[k] = arr[i]
-	print "AFTER"
-	for d in range (len(rev_arr)):
-		print rev_arr[d] 
+
 	i -= 1
 	k += 1
 
-	if k > len(rev_arr):
+	if k >= len(rev_arr):
 		print "DONE"
 		for d in range (len(rev_arr)):
 			print rev_arr[d] 
