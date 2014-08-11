@@ -33,7 +33,7 @@ def helper(arr,i,k,rev_arr):
 
 def reverse(arr):
 	#Your code goes here and remember you can add other methods to help out if you like.
-	rev_arr = array.copy(arr)
+	rev_arr = [1,2,3,4,5,6,7,8]
 
 	sol_arr = []
 

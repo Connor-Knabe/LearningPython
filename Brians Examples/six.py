@@ -6,7 +6,7 @@
 
 #run with: python test.py six
 
-#0th index 
+
 
 def helper(arr,i):
 	arr_size = len(arr)
@@ -14,7 +14,7 @@ def helper(arr,i):
 
 	temp = arr[i]
 
-
+	
 
 def reverse(arr):
 	#Your code goes here and remember you can add other methods to help out if you like.
