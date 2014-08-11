@@ -11,10 +11,11 @@ def helper(sol_arr, arr, i):
 
 def times2(arr):
 	sol_arr = []
+	solution_arr = []
 	solution_arr = helper(sol_arr, arr, 0)
 
-	for i in solution_arr
-		print solution_arr[i]
+	#for i in range (0, len(solution_arr)):
+	#	print solution_arr[i]
 
 	return solution_arr
 
