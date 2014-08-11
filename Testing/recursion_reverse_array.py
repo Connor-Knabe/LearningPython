@@ -24,7 +24,8 @@ def reverse(arr):
 
 	sol_arr = helper(arr,len(arr)-1,0,rev_arr)
 
-	#for d in range (len(sol_arr)):
-	#	print sol_arr[d] 
+	for i in range (len(sol_arr))
+		print sol_arr[i]
 
+	
 reverse(arr)
