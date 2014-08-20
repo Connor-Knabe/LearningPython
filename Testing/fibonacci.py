@@ -1,10 +1,16 @@
 n = 5
-def helper(n):
-	result = (n-1) + (n-2)
-	return helper(result)
+i = 5	
+
+def fibnocci(n):
+	if n == 0:
+		return 0
+	if n == 1:
+		return 1
+	else:
+		return fibnocci(n-1)+fibnocci(n-2)
 
 
 
-def fibonacci(n):
-	#Your code goes here. Remember a helper function is a good idea
-	
+#Your code goes here. Remember a helper function is a good idea
+print "SDF"
+print "BLAH", helper(n,i)

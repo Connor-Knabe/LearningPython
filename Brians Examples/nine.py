@@ -12,12 +12,18 @@
 #fibonacci(8) -> 21
 #fibonacci(6) -> 8
 
-def helper(n):
-	result = (n-1) + (n-2)
-	return helper(result)
+def fibnocci(n):
+	if n == 0:
+		return 0
+	if n == 1:
+		return 1
+	else:
+		return fibnocci(n-1)+fibnocci(n-2)
 
 
 
 def fibonacci(n):
 	#Your code goes here. Remember a helper function is a good idea
-	
+	x = fibnocci(8)
+	print x
+	return x
