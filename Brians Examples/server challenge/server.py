@@ -6,7 +6,7 @@ urls = (
 
 class hello:        
     def GET(self,name):
-        raise web.seeother('/show_this.html')
+        raise web.seeother('/static/test.png')
 
 app = web.application(urls, globals())
 
