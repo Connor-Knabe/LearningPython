@@ -6,10 +6,9 @@ urls = (
 app = web.application(urls, globals())
 
 class hello:        
-    def GET(self, name):
-        if not name: 
-            name = 'World'
-        return 'Hello, ' + name + '!'
+    def GET(self):
+        raise web.seeother('show_this.html')
+
 
 if __name__ == "__main__":
     app.run()
