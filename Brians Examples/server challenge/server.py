@@ -3,12 +3,12 @@ import web
 urls = (
     '/(.*)', 'hello'
 )
-app = web.application(urls, globals())
 
 class hello:        
-    def GET(self):
-        raise web.seeother('show_this.html')
+    def GET(self,name):
+        raise web.seeother('/show_this.html')
 
+app = web.application(urls, globals())
 
 if __name__ == "__main__":
     app.run()
