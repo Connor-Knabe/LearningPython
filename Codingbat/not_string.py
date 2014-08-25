@@ -1,5 +1,15 @@
-str = "not candy"
+#def not_string(str):
 
-string = str[0:2]
+str = "not string"
 
-print "string is ", string
+
+	if (str[0:3] == "not"):
+		print str
+	else:
+		print ("not " += str)
+
+str = "string"
+	if (str[0:3] == "not"):
+		print str
+	else:
+		print ("not " += str)
