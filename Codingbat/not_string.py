@@ -1,5 +1,5 @@
 str = "not candy"
 
-string = str[:2]
+string = str[0:2]
 
 print "string is ", string
