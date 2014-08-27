@@ -1,18 +1,16 @@
-string = "kitten"
-n = 4
+def missing_char(str, n):
+  
+    firstStr = ""
+    lastStr = ""
 
-firstStr = ""
-lastStr = ""
-
-if (n==0):
-	print "first letter",string[n+1:]
-elif (n==len(string)-1):
-	print "last letter",string[0:len(string)-1]
-else:
-	firstStr = string[0:n]
-	lastStr = string[n+1:len(string)]
-	print "Final",firstStr + lastStr
-
+    if (n==0):
+        return str[n+1:]
+    elif (n==len(str)-1):
+        return str[0:len(str)-1]
+    else:
+		firstStr = str[0:n]
+		lastStr = str[n+1:len(str)]
+	return firstStr + lastStr
 
 
-print string[len(string)-1]
+
