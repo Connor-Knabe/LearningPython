@@ -1,16 +1,8 @@
-def missing_char(str, n):
-  
-    firstStr = ""
-    lastStr = ""
+str = "kitten"
+n = 1
 
-    if (n==0):
-        return str[n+1:]
-    elif (n==len(str)-1):
-        return str[0:len(str)-1]
-    else:
-		firstStr = str[0:n]
-		lastStr = str[n+1:len(str)]
-	return firstStr + lastStr
-
+front = str[:n]   # up to but not including n
+back = str[n+1:]  # n+1 through end of string
+print front + back
 
 
