@@ -1,11 +1,14 @@
 string = "kitten"
-n = 0
+n = 6
 
 print "stringg",string[1:]
 
 if (n==0):
-	print "stringg",string[n+1:]
-elif (n==len(string)-1):
-	print string[n:n+len(string)]
+	print "first letter",string[n+1:]
+elif (n==len(string)):
+	print "last letter",string[0:len(string)-1]
 
-print string[n:n+1]
+
+
+
+print string[len(string)-1]
