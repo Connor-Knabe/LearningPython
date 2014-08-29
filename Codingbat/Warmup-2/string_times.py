@@ -1,5 +1,5 @@
-str = "hi"
-n = 2
-
-for i in range (0,n):
-	print str
+def string_times(str, n):
+    finalStr = ""
+    for i in range (0,n):
+        finalStr = finalStr + str
+    return finalStr
