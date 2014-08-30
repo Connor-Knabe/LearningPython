@@ -1,9 +1,10 @@
-str = "hihi"
+str = "Heeololeo"
 
-newStr = ""
+finalStr = ""
 
 
 for i in range (0,len(str)):
 	if i % 2 == 0:
-		print str[i]
+		finalStr += str[i]
 
+print finalStr
