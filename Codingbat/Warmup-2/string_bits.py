@@ -1,10 +1,10 @@
-str = "Heeololeo"
+def string_bits(str):
+  
+    finalStr = ""
 
-finalStr = ""
 
+    for i in range (0,len(str)):
+        if i % 2 == 0:
+	    finalStr += str[i]
 
-for i in range (0,len(str)):
-	if i % 2 == 0:
-		finalStr += str[i]
-
-print finalStr
+    return finalStr
