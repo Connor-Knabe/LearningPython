@@ -1,8 +1,8 @@
-str = "Chocolate"
-n = 3
-str = str[:3]
-final = ""
+def front_times(str, n):
+  
+    str = str[:3]
+    final = ""
 
-for i in range(0,n):
-	final += str
-print final
+    for i in range(0,n):
+        final += str
+    return final
