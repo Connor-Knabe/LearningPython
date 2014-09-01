@@ -1,25 +1,22 @@
-string = "There"
+string = "Kitten"
 finalString = ""
 
 
 
-for i in range(0,len(string)):
-	if i == 0:
+for i in range (len(string)):
+	if i == 0 and len(string) > 0:
 		finalString += string[0]
 		finalString += string[0]
-	elif i == 1 and len(string) > 1:
+	elif i == 1:
 		finalString += string[1]
-	elif i == 2 and len(string) > 2:
+	elif i == 2:
 		finalString += string[0:3]
-	elif i == 3 and len(string) > 3:
-		finalString += string[0:4]
-	elif i == 4 and len(string) > 4:
-		finalString += string[0:len(string)-1]
-	elif i == len(string)-2:
+	elif i > 2 and len(string)-1 != i: 
+		print "HE"
+		finalString += string[0:i+1]
+	elif i == len(string)-1:
+		print "HI"
 		finalString += string
-
-
-
 
 
 print finalString
