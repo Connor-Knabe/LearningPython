@@ -1,4 +1,4 @@
-string = "ab"
+string = "abc"
 
 finalString = ""
 
