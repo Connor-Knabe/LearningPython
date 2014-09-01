@@ -1,12 +1,7 @@
-nums = [9,2,1,1,9,1,1,9]
-
-print len(nums)
 k = 0
-
-
 
 for i in range (0,len(nums)):
 	if nums[i] == 9 and k < 4:
-		print "true"
+		return True
 	k += 1
-print "false"
+return False
