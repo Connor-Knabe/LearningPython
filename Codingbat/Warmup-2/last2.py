@@ -1,15 +1,14 @@
-str = "axxxaaxx"
-lastSubString = ""
-compSubString = ""
+def last2(str):
+  
+    compSubString = ""
+    lastSubString = str[len(str)-2:len(str)]
+    subStrCount = 0
 
-lastSubString = str[len(str)-2:len(str)]
-
-for i in range (len(str)):
+    for i in range (len(str)):
 	compSubString = str[i:i+2]
-
-	print "len str", len(str), "i=",i
+        if len(lastSubString) == 1:
+            return 0
 
 	if compSubString == lastSubString and len(str)-2 != i:
-		print "YES", compSubString
-
-print lastSubString
+		subStrCount += 1
+    return subStrCount
