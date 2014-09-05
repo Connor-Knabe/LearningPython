@@ -1,7 +1,8 @@
-str = "Hello"
+def without_end(str):
+  
 
-finalStr = ""
+    finalStr = ""
 
-finalStr = str[1:-1]
+    finalStr = str[1:-1]
 
-print finalStr
+    return finalStr
