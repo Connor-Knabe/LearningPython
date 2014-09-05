@@ -1,12 +1,8 @@
-str = "HelloThere"
+def first_half(str):
+  
+    finalStr = ""
+    half = len(str)/2
 
-finalStr = ""
+    finalStr = str[0:half]
 
-print len(str)
-
-num = len(str)/2
-print num
-
-finalStr = str[0:num]
-
-print finalStr
+    return finalStr
