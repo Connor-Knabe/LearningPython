@@ -1,8 +1,4 @@
-a = "Hello"
-b = "There"
-
-finalStr = a+b
-
-
-
-return finalStr[1:-1]
+def non_start(a, b):
+  
+    finalStr = a[1:]+b[1:]
+    return finalStr
