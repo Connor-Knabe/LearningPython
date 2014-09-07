@@ -1,7 +1,8 @@
-str = "The"
-finalStr = ""
+def double_char(str):
+  
+    finalStr = ""
 
-for i in range (len(str)):
+    for i in range (len(str)):
 	finalStr += str[i]+ str[i]
 
-print finalStr
+    return finalStr
