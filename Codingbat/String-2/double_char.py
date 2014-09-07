@@ -1,4 +1,7 @@
 str = "The"
+finalStr = ""
 
 for i in range (len(str)):
-	print str[i]
+	finalStr += str[i]+ str[i]
+
+print finalStr
