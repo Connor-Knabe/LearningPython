@@ -1,6 +1,7 @@
+def left2(str):
+  
 
-left = str[:2]
-right = str[2:]
+    left = str[:2]
+    right = str[2:]
 
-print right + left
-
+    return right + left
