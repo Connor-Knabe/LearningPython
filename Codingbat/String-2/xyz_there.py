@@ -1,5 +1,6 @@
-str = "abcxyz"
-
-for i in range (len(str)):
+def xyz_there(str):
+  
+    for i in range (len(str)):
 	if str[i:i+3] == "xyz" and str[i-1] != ".":
-		print "YES"
+	    return True
+    return False
