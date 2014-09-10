@@ -15,12 +15,10 @@
 def fibnocci(n):
 	if n < 2:
 		return n
-	else:
-		return (fibonacci(n-1)+fibonacci(n-1))
-	
+	return fibnocci(n-1)+fibnocci(n-2)
+
 
 
 def fibonacci(n):
 	#Your code goes here. Remember a helper function is a good idea
 	return fibnocci(n)
-
