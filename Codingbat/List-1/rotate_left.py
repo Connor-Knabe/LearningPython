@@ -1,3 +1,5 @@
+def rotate_left3(nums):
+  
 
 
     temp0 = nums[0]
