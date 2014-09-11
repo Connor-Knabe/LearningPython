@@ -1,6 +1,3 @@
-nums = [1,2,3]
-
-nums[2,3,1]
 
 
     temp0 = nums[0]
