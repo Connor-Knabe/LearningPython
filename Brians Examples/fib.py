@@ -1,4 +1,4 @@
-n = 9
+n = 3
 
 def fib(n):
 	if (n<2):
