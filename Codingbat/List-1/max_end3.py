@@ -1,7 +1,9 @@
     max = 0
-    for i in range (len(nums)):
-    	if (nums[i] > max):
-    		max = nums[i]
+
+    if nums[0] > nums[2]:
+    	max = nums[0]
+    else:
+    	max = nums[2]
 
     for i in range (len(nums)):
     	nums[i]=max
