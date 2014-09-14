@@ -7,4 +7,5 @@ for i in range (len(nums)):
 for i in range (len(nums)):
 	nums[i]=max
 
-print max
+print nums
+
