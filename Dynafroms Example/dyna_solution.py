@@ -8,5 +8,4 @@ arr[2]=0
 for i in range (len(arr)):
 	newArraySum += arr[i]
 
-
 print sum - newArraySum
