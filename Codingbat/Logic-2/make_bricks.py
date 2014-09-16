@@ -1,3 +1,5 @@
-bigResult = big * 5
 
-return (bigResult+small > goal)
+  
+    bigResult = big * 5
+
+    return (bigResult+small >= goal)
