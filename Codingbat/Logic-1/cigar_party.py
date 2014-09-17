@@ -3,4 +3,7 @@
 
     if (cigars > 40 and cigars < 60):
     	return True
-    elif
+    elif (cigars > 40 and is_weekend):
+    	return True
+    else:
+    	return False
