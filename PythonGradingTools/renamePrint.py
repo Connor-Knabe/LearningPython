@@ -1,7 +1,7 @@
 import os
 outFile = open('./cs3380Grades.txt', 'w+')
 pwprtName = ""
-pwprtArry = ""
+pwprtArry = []
 for filename in os.listdir("."):
 	if filename.startswith("Lab "):
 		pwprtName = filename.split('_')[1]+".php"
@@ -9,5 +9,5 @@ for filename in os.listdir("."):
 		pwprtArry.append(pwprtName.split(".")[0])
 
 pwprtArry.sort()
-for j in range (len(arr)):
-    outFile.write(arr[j] + " -" + "\n")
+for j in range (len(pwprtArry)):
+    outFile.write(pwprtArry[j] + " -" + "\n")
