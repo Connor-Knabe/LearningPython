@@ -1,5 +1,6 @@
 import os
 str = ""
+out1 = "" 
 arr = []
 outFile = open('./testfile', 'w+')
 i = 0
@@ -10,6 +11,6 @@ for filenames in os.listdir('.'):
 
 arr.sort()
 for j in range (len(arr)):
-	outFile.write(arr[j],"-","\n")
-    print arr[j],"-","\n"
-
+    out = arr[j] + "-" + "\n"
+    outFile.write(out)
+    print 
