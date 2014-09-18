@@ -1,4 +1,4 @@
 import os
 for filename in os.listdir("."):
-	if filename.startswith("Lab 1"):
+	if filename.startswith("Lab "):
 		os.rename(filename, filename[6:12])
