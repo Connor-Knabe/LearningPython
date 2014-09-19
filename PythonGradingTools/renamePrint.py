@@ -5,9 +5,8 @@ pwprtArry = []
 
 #Loops through all files changing the name to pwprt.php
 #Also adds the pwprt to an array
-
 for filename in os.listdir("."):
-	if filename.startswith("Lab "):
+	if filename.startswith("Lab ") and "php" in filename:
 		pwprtName = filename.split('_')[1]+".php"
 		os.rename(filename, pwprtName)
 		pwprtArry.append(pwprtName.split(".")[0])
