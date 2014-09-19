@@ -9,7 +9,12 @@ import shutil
 outFile = open('./Grades.txt', 'w+')
 pwprtName = ""
 pwprtArry = []
-os.mkdir("TextDocs")
+
+#Creates folder for text documents
+if (os.path.isdir("TextDocs")):
+	print "TextDocs folder already exists"
+else:
+	os.mkdir("TextDocs")
 
 #Loops through all files changing the name to pwprt.php
 #Also adds the pwprt to an array
