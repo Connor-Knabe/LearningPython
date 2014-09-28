@@ -5,8 +5,8 @@ import os
 for line in sys.stdin:
     print line
 
-print sys.argv[1]
-file = open(sys.argv[1] + ".java", 'w+')
+fName = sys.argv[1]
+file = open(fName + ".java", 'w+')
 
 if (file):
-    file.write("Testa\t\t\n\naa\taa\n")
+    file.write("public class " + fName + " {\n    public static void main(String[] args) {\n        \n        \n    }\n}")
