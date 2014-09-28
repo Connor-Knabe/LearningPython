@@ -11,3 +11,6 @@ file = open(fName + ".java", 'w+')
 
 if (file):
     file.write("public class " + fName + " {\n    public static void main(String[] args) {\n        \n        \n    }\n}")
+
+
+subprocess.call("javac", shell=True)
