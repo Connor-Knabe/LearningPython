@@ -2,10 +2,7 @@ import sys
 import os
 import subprocess
 
-#to run type pwd | python createJava.py fileNamehere
-
-#for line in sys.stdin:
-#    print line
+#to run python createJava.py fileNamehere
 
 fName = sys.argv[1]
 if(os.path.isfile(fName+".java")):
