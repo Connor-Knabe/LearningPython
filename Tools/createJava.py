@@ -12,5 +12,7 @@ file = open(fName + ".java", 'w+')
 if (file):
     file.write("public class " + fName + " {\n    public static void main(String[] args) {\n        \n        \n    }\n}")
 
+cmd = "javac " + fName +".java" 
 
-subprocess.call("javac", shell=True)
+subprocess.Popen(cmd, shell=True)
+
